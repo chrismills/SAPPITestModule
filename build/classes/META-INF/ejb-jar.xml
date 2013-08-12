@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ejb-jar_ID" version="2.1" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
+	<display-name>SAPPITestModule</display-name>
+	<enterprise-beans>
+		<session>
+			<icon/>
+			<ejb-name>SAPPITestModule</ejb-name>
+			<home>com.sap.aii.af.lib.mp.module.ModuleHome</home>
+			<remote>com.sap.aii.af.lib.mp.module.ModuleRemote</remote>
+			<local-home>com.sap.aii.af.lib.mp.module.ModuleLocalHome</local-home>
+			<local>com.sap.aii.af.lib.mp.module.ModuleLocal</local>
+			<ejb-class>com.sap.adaptermodule.PITestAdapterModuleBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Container</transaction-type>
+		</session>
+	</enterprise-beans>
+</ejb-jar>

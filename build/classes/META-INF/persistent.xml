@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistent-ejb-map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="persistent.xsd">
+	<db-properties>
+		<data-source-name>${com.sap.datasource.default}</data-source-name>
+	</db-properties>
+</persistent-ejb-map>
