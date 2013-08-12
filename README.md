@@ -1,4 +1,4 @@
-SAPPITestModule
+SAP PI Test Adapter Module
 ===============
 
 SAP PI Adapter Module template. SAP JAR's are required to build this:
@@ -11,3 +11,5 @@ SAP PI Adapter Module template. SAP JAR's are required to build this:
  Template code just logs the message payload and doesn't do much else.
  
  The JNDI name is used as the alias in the Integration Directory i.e. in this case JNDI is SAPPITestModule so in the integration builder add a local enterprise bean with module name SAPPITestModule
+ 
+ Project needs to be added to a EAR project and then deployed to a PI server via NWDS
