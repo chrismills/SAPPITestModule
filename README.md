@@ -18,6 +18,7 @@ Project needs to be added to a EAR project and then deployed to a PI server via 
 Notes:
 
 (1) Configure the build path. Create a classpath variable (Window->Preferences Java->Build Path->Classpath Variables) called PI_AF_LIBS and point it to the folder containing the PI jars listed above.
+
 (2) Eclipse uses a .apt_generated folder to store information about annotations. This project does not use annotations so the folder is empty and git will not track empty folders by default. To sort this out just perform one of two quick fixes:
 + Create an empty .apt_generated folder in the projects root directory.
 + Open Project Properties and navigate to Java Compiler -> Annotation Processing. Disable annotation processing and apply. Then re-enable annotation processing and apply.
