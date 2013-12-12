@@ -7,11 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="src" path=".apt_generated">
-		<attributes>
-			<attribute name="optional" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="var" path="PI_AF_LIBS/com.sap.aii.af.cpa.svc.api.jar"/>
 	<classpathentry kind="var" path="PI_AF_LIBS/com.sap.aii.af.lib.mod.jar"/>
 	<classpathentry kind="var" path="PI_AF_LIBS/com.sap.aii.af.ms.ifc_api.jar"/>
@@ -20,6 +15,11 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/sapjvm_6">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
